@@ -59,5 +59,9 @@ main .para5 p {
 footer:hover {
   transform: rotate(90deg);
 }
+::selection{
+  background-color: yellow;
+  color: blue;
+}
 
 /*# sourceMappingURL=aadhi.css.map */
