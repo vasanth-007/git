@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header div {
+  background-color: yellow;
+}
+header div p {
+  text-align: center;
+}
+
+nav div {
+  background-color: #333;
+  margin: 0%;
+  padding: 20px;
+}
+nav div a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
+nav div a:hover {
+  background-color: red;
+  color: black;
+}
+
+main .para1 {
+  background-color: lightblue;
+}
+main .para1 p {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+main .para2 {
+  background-color: #333;
+}
+main .para2 p {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+main .para3, main .para6 p {
+  background-color: lightblue;
+}
+main .para3 p, main .para6 p p {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+main .para4 p {
+  border: 2px solid blue;
+}
+main .para5 p {
+  background-color: yellow;
+  color: red;
+}
+footer:hover {
+  transform: rotate(90deg);
+}
+
+/*# sourceMappingURL=aadhi.css.map */
