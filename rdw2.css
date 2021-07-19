@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+header nav {
+  background-color: #333;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+}
+header nav a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+header nav a:hover:active {
+  background-color: white;
+  color: black;
+}
+header nav .cross {
+  color: white;
+  margin-top: 11px;
+  cursor: pointer;
+  position: relative;
+  margin-left: 300px;
+}
+header nav .cross:hover .content {
+  display: block;
+}
+header nav .cross .content {
+  background-color: white;
+  position: absolute;
+  display: none;
+}
+header nav .cross .content a {
+  display: block;
+  color: black;
+  width: 100px;
+}
+
+/*# sourceMappingURL=rdw2.css.map */

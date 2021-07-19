@@ -1,0 +1,14 @@
+@media screen and (max-width:500px) {
+    nav a:nth-of-type(2){
+        display: none;
+    }
+    nav a:nth-of-type(3){
+        display: none;
+    }
+    nav a:nth-of-type(4){
+        display: none;
+    }
+    nav a:nth-of-type(5){
+        display: none;
+    }
+}
