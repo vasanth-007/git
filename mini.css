@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: lightblue;
+}
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: deepskyblue;
+}
+.logo img{
+    border-radius: 20px;
+}
+.head1{
+    font-family:'Playfair Display', serif;
+}
+.head2{
+    font-family: 'Architects Daughter', cursive;
+    width: 300px;
+    line-height: 30px;
+}
+.symbol img{
+    height: 100px;
+    width: 200px;
+    object-fit: cover;
+}
+.shead{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 200px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -140px;
+}
+.navbar{
+    margin-top: -150px;
+}
+nav{
+    background-color: #333;
+}
+nav a{
+    height: 50px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 19px;
+}
+nav a:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+span{
+    margin-left: 770px;
+}
+.slider{
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.container{
+    position: relative;
+    width: 300%;
+    animation-name: slider;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+.container img{
+    width: 30%;
+    overflow-x: hidden;
+}
+@keyframes slider {
+    0%{
+        left:0%;
+    }
+    50%{
+        left: -100%;
+    }
+    100%{
+        left: -170%;
+    }
+}
+/*today*/
+.covid h2{
+    text-align: center;
+    background-color: grey;
+}
+.covid p{
+    font-size: 22px;
+}
+.video{
+    text-align: center;
+}
+.video a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 10px;
+}
+.video div{
+    margin-right: -1200px;
+    position: relative;
+}
+.video a:hover{
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}

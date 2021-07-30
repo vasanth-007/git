@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="mini.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@1,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/44a6058e92.js" crossorigin="anonymous"></script>
+    <style>
+        .vaccine{
+            transition: all 0,5s;
+            display: inline-block;
+            padding:20px 30px;
+            margin-top: 20px;
+            background-color: blue;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 3px 3px 3px rgba(0,0,0,0.4),-3px -3px 3px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        .vaccine p{
+            text-decoration: none;
+            color: white;
+            transition: 0.5s;
+            position: relative;
+        }
+        .vaccine:hover p{
+            margin-left: -15px;
+        }
+        .vaccine p::after{
+            content: '\00bb';
+            font-size: 30px;
+            position: absolute;
+            opacity: 0;
+            top: -10px;
+            transition: 0.5s;
+        }
+        .vaccine:hover p:after{
+            opacity: 1;
+            margin-left: 20px;
+        }
+        .vaccine a{
+            text-decoration: none;
+        }
+        .container1{
+            margin: auto;
+            width: 600px;
+            height: 500px;
+            text-align: center;
+            background-color: white;
+            box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+            box-shadow: -4px -4px -4px rgba(0,0,0,0.4);
+            border-radius: 20px;
+            margin-top: 60px;
+        }
+        .body1{
+            background-image: url('https://usercontent.one/wp/www.asianewsday.com/wp-content/uploads/2021/03/White-House-weighs-temporarily-lifting-intellectual-property-shield-on-Covid-19-2048x1152.jpeg');
+            background-size: 1366px 700px;
+            margin-top: -20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="https://assets.eenadupratibha.net/uploadimages/mod-logo-05072021.jpg" height="100px">
+        </div>
+        <div class="head1">
+            <h2>Central Government of India</h2>
+        </div>
+        <div class="head2">
+            <h4>Ministry of Health and Family Welfare COVID-19-corona virus disease</h4>
+        </div>
+        <div class="symbol">
+            <img src="https://static.vecteezy.com/system/resources/previews/000/837/820/original/covid-19-poster-with-sick-cartoon-man-vector.jpg" height="100px" width="100px">
+        </div>
+    </div>
+    <div class="shead">
+       <h1>Online Vaccination Booking</h1>
+       <hr>
+    </div>
+    <div class="navbar">
+        <nav>
+            <a href="miniproject.html">Covid-19</a>
+            <a href="sym.html" target="_self">Symptoms</a>
+            <a href="pre.html" target="_self">Pre-Caution</a>
+            <a href="beni.html" target="_self">Vaccine Benifits</a>
+            <span>
+                <a href="online.html" target="_self">Order <i class="fas fa-shopping-cart"></i></a>
+            </span>
+        </nav>
+    </div>
+    <div class="body1">
+        <div class="bgimage">
+            <div class="container1">
+                <h2 style="text-decoration: underline;">Benefits of Getting a COVID-19 Vaccine</h2>
+                <p style="font-size: 25px;text-align: center;">COVID-19 vaccines are safe</p>
+                <p>
+                    <li style="font-size: 22px;">COVID-19 vaccines were developed using science that has been around for decades.</li>
+                    <li style="font-size: 22px;">COVID-19 vaccines are not experimental. They went through all the required stages of clinical trials. Extensive testing and monitoring have shown that these vaccines are safe and effective.</li>
+                    <li style="font-size: 22px;">COVID 19-vaccines are effective. They can keep you from getting and spreading the virus that causes COVID-19</li>
+                    <li  style="font-size: 22px;">COVID-19 vaccines also help keep you from getting seriously ill even if you do get COVID-19.</li>
+                    <i class="far fa-hand-point-right" style="font-size: 60px;"></i>
+                    <div class="vaccine">
+                        <a href="online.html" target="_self"><p>Register For Vaccine</p></a>
+                    </div>
+                    <i class="far fa-hand-point-left" style="font-size: 60px;"></i>            
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer style="margin-top: 20px;">
+        <div style="background-color: #232323;color: white;width: 100%;height: 100px;text-align: center;padding-top: 20px;">
+            <p style="font: bold;">Terms of Service Privacy Policy</p>
+            <p style="font: bold;">© Copyright 2021 - All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
